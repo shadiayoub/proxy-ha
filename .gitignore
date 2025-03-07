@@ -1,0 +1,4 @@
+./data/nginx/custom_hosts/*
+./data/custom_ssl
+./data/keys.json
+./data/logs/*
