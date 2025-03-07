@@ -1,4 +1,9 @@
-./data/nginx/custom_hosts/*
-./data/custom_ssl
-./data/keys.json
-./data/logs/*
+# Ignore Nginx Proxy Manager configurations
+data/nginx/proxy_host/*
+data/custom_ssl/
+data/keys.json
+data/logs/*
+mysql/npm/*
+
+# Ignore Let's Encrypt certificates
+data/ssl/*
